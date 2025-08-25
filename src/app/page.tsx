@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { Card, CardHeader, CardTitle } from "@/components/ui/card";
+import { MainMenuCard } from "@/components/molecules/MainMenuCard";
 
 export default function Home() {
   return (
@@ -7,12 +6,9 @@ export default function Home() {
       {/* タイトル */}
       <h1>Welcome to Tiny Tools Lab</h1>
       {/* ツール一覧 */}
-      <div>
-        <Card href="/as_far_as_possible" className="w-30 max-w-sm">
-          <CardHeader>
-            <CardTitle>遠くに行きたい</CardTitle>
-          </CardHeader>
-        </Card>
+      <div className="flex flex-wrap gap-4 justify-center ">
+        <MainMenuCard href="/as_far_as_possible" title="遠くに行きたい" />
+        <MainMenuCard title="工事中" />
       </div>
     </div>
   );
