@@ -10,7 +10,7 @@ export function MainMenuCard({ href, title }: MainMenuCardProps) {
         // hrefがあればCardをリンクにし、なければCardをそのまま表示 
         <Card className="aspect-square w-40" {...(href && { href: href })}>
             <CardHeader>
-                <CardTitle className="text-center">{title}</CardTitle>
+                <CardTitle className="text-center font-medium text-sm">{title}</CardTitle>
             </CardHeader>
         </Card >
     );
