@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.16.10",
+    "@iconify-json/emojione-monotone": "^1.2.1",
+    "@iconify-json/gis": "^1.2.5",
     "@types/google.maps": "^3.58.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -20,13 +22,17 @@
     "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
+    "@egoist/tailwindcss-icons": "^1.9.0",
     "@eslint/eslintrc": "^3",
+    "@iconify-json/lucide": "^1.2.65",
+    "@iconify/json": "^2.2.379",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.4.6",
+    "shadcn": "^3.0.0",
     "tailwindcss": "^4",
     "tw-animate-css": "^1.3.6",
     "typescript": "^5"
